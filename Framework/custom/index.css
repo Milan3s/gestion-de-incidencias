@@ -1,0 +1,29 @@
+.welcome-title {
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+.btn-custom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 24px;
+    padding: 30px;
+    height: 150px;
+}
+.btn-custom i {
+    margin-bottom: 10px;
+    font-size: 32px;
+}
+.link-container {
+    width: 100%;
+    max-width: 400px;
+}

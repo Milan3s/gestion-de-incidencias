@@ -1,0 +1,209 @@
+.table-container {
+    width: 100%;
+}
+
+.incident-table th,
+.incident-table td {
+    padding: 8px;
+    text-align: center;
+    vertical-align: middle;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.incident-table tbody tr a {
+    text-decoration: underline;
+    color: blue;
+}
+
+.incident-item {
+    cursor: pointer;
+}
+
+.input-group {
+    margin-bottom: 10px;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.action-buttons .btn {
+    flex: 1;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.info-icon,
+.zip-icon {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    color: black;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 29px;
+    font-size: 14px;
+}
+
+.zip-icon {
+    background: #f39c12;
+}
+
+a.link-boton {
+    color: black;
+    text-decoration: underline;
+}
+
+.action-buttons-table .btn {
+    margin: 0 5px;
+}
+
+.action-buttons-table .btn-resolved {
+    color: green;
+}
+.action-buttons-table .btn-resolved:hover {
+    color: rgb(255, 255, 255);
+}
+.action-buttons-table .btn-edit {
+    color: blue;
+}
+
+.action-buttons-table .btn-edit:hover {
+    color: rgb(253, 253, 255);
+}
+
+.action-buttons-table .btn-view {
+    color: #ffcc00;
+}
+
+.action-buttons-table .btn-view:hover {
+    color: #ffffff;
+}
+
+
+/*form modal*/
+
+/* Sombra negra suave para el modal */
+.modal-backdrop.show {
+    opacity: 0.85;
+}
+
+.modal-content {
+    background-color: rgba(255, 255, 255, 0.9); /* Slight transparency */
+    border: 2px solid #000;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    margin: auto;
+}
+
+.modal-header, .modal-footer {
+    border-bottom: 2px solid #000;
+    border-top: 2px solid #000;
+}
+
+.form-control, .form-select {
+    border: 2px solid #000;
+    /* box-shadow: 3px 3px #ccc; */
+    color: #000;
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: #000;
+    box-shadow: 3px 3px #ccc;
+}
+
+.btn-primary, .btn-secondary {
+    background-color: #000;
+    border-color: #000;
+    color: #fff;
+}
+
+.btn-close {
+    color: #000;
+}
+
+.modal-title {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+}
+
+.modal-header h5, .modal-footer button {
+    color: #000;
+}
+
+.modal-body .form-label {
+    font-weight: bold;
+}
+
+/* Ajustes adicionales */
+.modal-dialog {
+    max-width: 800px; /* Ajusta el tamaño del modal */
+}
+
+.modal-body .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.modal-body .col-md-6 {
+    flex: 1;
+    min-width: 300px;
+}
+
+.modal-footer .btn {
+    margin-left: 10px;
+}
+
+/* Center the modal content */
+.modal-content {
+    margin: auto;
+}
+
+button.btn.btn-darkwhite1 {
+    background: #2d2b2b;
+    color: white;
+    transition: 0.3s;
+}
+
+button.btn.btn-darkwhite2 {
+    background: #2d2b2b;
+    color: white;
+    transition: 0.3s;
+}
+button.btn.btn-darkwhite1:hover{
+    background: #000;
+}
+
+button.btn.btn-darkwhite2:hover{
+    background: #000;
+}
+.modal-dialog-centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.modal-content {
+    margin: auto;
+    position: relative;
+}
+
+@media (min-width: 768px) {
+    .modal-body .form-row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .modal-body .form-row .form-group {
+        flex: 1;
+        min-width: 300px;
+    }
+
+    .modal-body .form-row .form-group-full {
+        flex: 2;
+    }
+}

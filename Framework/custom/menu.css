@@ -1,0 +1,17 @@
+header {
+    position: -webkit-sticky; /* Para navegadores que soportan el prefijo -webkit- */
+    position: sticky;
+    top: 0; /* Desplazamiento desde la parte superior */
+    z-index: 1000; /* Asegura que el menú se mantenga por encima de otros elementos */    
+}
+
+
+.navbar-custom {
+    background-color: #fff;
+    box-shadow: 0 4px 2px -2px gray;
+}
+.welcome-title {    
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 50px;
+}

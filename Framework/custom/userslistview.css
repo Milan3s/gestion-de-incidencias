@@ -1,0 +1,15 @@
+.bloque-titulo {
+    margin-top: 46px;
+    margin-bottom: 24px;
+}
+
+.bloque-botones {
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+table tbody td {
+    text-align: center; /* Centrar texto en las celdas de la tabla */
+    vertical-align: middle; /* Alinear verticalmente al centro */
+}

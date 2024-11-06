@@ -1,0 +1,30 @@
+
+.center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 56px); /* Adjusted height to account for the navbar */
+    flex-direction: column;
+}
+.btn-custom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 24px;
+    padding: 30px;
+    height: 150px;
+}
+.btn-custom i {
+    margin-bottom: 10px;
+    font-size: 32px;
+}
+
+.table thead th {
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #ccc;
+}
+.table tbody td {
+    border: 1px solid #ccc;
+}
